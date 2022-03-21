@@ -20,6 +20,7 @@ body {
 .top {
     margin: 0 15px;
     font-size: 40px;
+    color: rgb(22, 53, 119);
     text-align: center;
 }
 
@@ -53,7 +54,6 @@ body {
 .img-left:hover .img-hover {
     display: inline;
 }
-
 .img-middle .img-hover {
     display: none;
     position: absolute;
@@ -63,7 +63,6 @@ body {
 .img-middle:hover .img-hover {
     display: inline;
 }
-
 .img-right .img-hover {
     display: none;
     position: absolute;
@@ -102,13 +101,13 @@ body {
 }
 
 /*------ stile della descrizione dei prodotti ------*/
-.dress-name {
+.dress {
     margin-top: 20px;
 }
 .brand {
     font-size: 14px;
 }
-.motto {
+.dress-name {
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
