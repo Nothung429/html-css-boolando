@@ -37,10 +37,9 @@ body {
     opacity: 1;
 }
 .img-left ,.img-middle ,.img-right {
-    background-color: black;
     position: relative;
 }
-.img-main {
+.img-main ,.img-hover {
     vertical-align:bottom;
 }
 
