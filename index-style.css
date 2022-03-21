@@ -5,23 +5,47 @@
     box-sizing: border-box;
 }
 
-.page {
-    max-width: 1280px;
-    height: 600px;
-    background-color: aqua;
+h1 {
+    font-size: 40px;
+}
+
+body {
+    max-width: 1000px;
     margin: auto;
 }
 
-.page::after {
+.col {
+    background-color: aqua;
+}
+
+.top {
+    background-color: red;
+    height: 50px;
+    margin: 0 15px;
+    border: 5px dashed black;
+    text-align: center;
+}
+
+.col::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.red {
-    background-color: red;
-    height: 100px;
-    width: 100px;
+.left ,.middle ,.right {
     float: left;
-    margin: 20px 10%;
+    height: 400px;
+    width: calc(100% / 3 - 30px);
+    background-color: black;
+    margin: 30px 15px;
 }
+
+.left > img ,.middle > img ,.right > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+
+
