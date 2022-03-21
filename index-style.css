@@ -12,6 +12,7 @@ h1 {
 body {
     max-width: 1000px;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .col {
