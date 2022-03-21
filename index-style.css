@@ -39,8 +39,12 @@ body {
     background-color: black;
     position: relative;
 }
-img {
+.image-main ,.image-hover {
     vertical-align:bottom;
+    position: relative;
+}
+.image-hover {
+    display: none;
 }
 
 /*------ stile delle estensioni delle foto ------*/
